@@ -1,3 +1,26 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/hr9fl4uecbpo5uhn?svg=true)](https://ci.appveyor.com/project/MSFTCoreNet/msft-network-diag)
+
+# MSFT.Network.Diag
+
+Top-level manifest module containing network diagnostic and troubleshooting tools by the Microsoft Core Networking Product Group at Microsoft
+
+## :star: More by the Microsoft Core Networking team
+
+Find more from the Core Networking team using the [MSFTNet](https://github.com/topics/msftnet) topic
+
+# Installation
+
+This module is part of MSFT.Network.Tools which can be installed using this command:
+```Install-Module MSFT.Network.Diag```
+
+To see all modules from the Microsoft Core Networking team, please use:
+```Find-Module -Tag MSFTNet```
+
+## Tools included in this module
+
+### Get-NetView (MSFT.Network.Diag v0.0.0.1)
+
+Get-NetView is a tool used to simplify the collection of network configuration information for diagnosis of networking issues on Windows
 
 # Contributing
 
