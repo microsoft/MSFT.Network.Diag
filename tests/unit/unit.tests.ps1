@@ -11,8 +11,8 @@ Describe "$($env:repoName)-Manifest" {
             $TestModule | Should Not BeNullOrEmpty
         }
 
-        It "Should specify at least 4 modules" {
-            ($TestModule).RequiredModules.Count | Should BeGreaterThan 3
+        It "Should specify at least 1 modules" {
+            ($TestModule).RequiredModules.Count | Should BeGreaterThan 0
         }
 
         'Get-NetView' | ForEach-Object {
