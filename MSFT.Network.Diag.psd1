@@ -51,7 +51,7 @@ Description = 'Top-level manifest module containing network diagnostic and troub
 # ProcessorArchitecture = ''
 
 # Modules that must be imported into the global environment prior to importing this module
-RequiredModules = @(@{ModuleName = 'Get-NetView'; ModuleVersion = '0.0.0.1'; })
+RequiredModules = @(@{ModuleName = 'Get-NetView'; ModuleVersion = '2019.6.7.8'; })
 
 # Assemblies that must be loaded prior to importing this module
 # RequiredAssemblies = @()
