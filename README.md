@@ -22,6 +22,10 @@ To see all modules from the Microsoft Core Networking team, please use:
 
 Get-NetView is a tool used to simplify the collection of network configuration information for diagnosis of networking issues on Windows
 
+### Validate-DCB (MSFT.Network.Diag v0.0.0.4)
+
+Validate-DCB is a tool that validates the RDMA and Data Center Bridging (DCB) configuration best practices on Windows.
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
