@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="7" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-07-14" time="06:44:55">
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="7" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-07-14" time="06:55:02">
   <environment user="appveyor" machine-name="APPVYR-WIN" cwd="C:\projects\MSFT.Network.Diag" user-domain="APPVYR-WIN" platform="Microsoft Windows Server 2012 R2 Datacenter|C:\windows|\Device\Harddisk0\Partition5" nunit-version="2.5.8.0" os-version="6.3.9600" clr-version="4.0.30319.42000" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="4.5091" asserts="0" description="Pester">
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="4.3642" asserts="0" description="Pester">
     <results>
-      <test-suite type="TestFixture" name="C:\projects\MSFT.Network.Diag\tests\unit\unit.tests.ps1" executed="True" result="Success" success="True" time="4.5091" asserts="0" description="C:\projects\MSFT.Network.Diag\tests\unit\unit.tests.ps1">
+      <test-suite type="TestFixture" name="C:\projects\MSFT.Network.Diag\tests\unit\unit.tests.ps1" executed="True" result="Success" success="True" time="4.3642" asserts="0" description="C:\projects\MSFT.Network.Diag\tests\unit\unit.tests.ps1">
         <results>
-          <test-suite type="TestFixture" name="MSFT.Network.Diag-Manifest" executed="True" result="Success" success="True" time="4.2208" asserts="0" description="MSFT.Network.Diag-Manifest">
+          <test-suite type="TestFixture" name="MSFT.Network.Diag-Manifest" executed="True" result="Success" success="True" time="4.0907" asserts="0" description="MSFT.Network.Diag-Manifest">
             <results>
-              <test-suite type="TestFixture" name="Validation" executed="True" result="Success" success="True" time="3.9815" asserts="0" description="Validation">
+              <test-suite type="TestFixture" name="Validation" executed="True" result="Success" success="True" time="3.8524" asserts="0" description="Validation">
                 <results>
-                  <test-case description="[Import-PowerShellDataFile] - MSFT.Network.Diag.psd1 is a valid PowerShell Data File" name="MSFT.Network.Diag-Manifest.Validation.[Import-PowerShellDataFile] - MSFT.Network.Diag.psd1 is a valid PowerShell Data File" time="0.1681" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="[Test-ModuleManifest] - MSFT.Network.Diag.psd1 should pass the basic test" name="MSFT.Network.Diag-Manifest.Validation.[Test-ModuleManifest] - MSFT.Network.Diag.psd1 should pass the basic test" time="0.008" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Should specify at least 2 modules" name="MSFT.Network.Diag-Manifest.Validation.Should specify at least 2 modules" time="0.0287" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Should contain the Get-NetView Module" name="MSFT.Network.Diag-Manifest.Validation.Should contain the Get-NetView Module" time="0.0945" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="The Get-NetView module should be available in the PowerShell gallery" name="MSFT.Network.Diag-Manifest.Validation.The Get-NetView module should be available in the PowerShell gallery" time="0.0073" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Should contain the Validate-DCB Module" name="MSFT.Network.Diag-Manifest.Validation.Should contain the Validate-DCB Module" time="0.0039" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="The Validate-DCB module should be available in the PowerShell gallery" name="MSFT.Network.Diag-Manifest.Validation.The Validate-DCB module should be available in the PowerShell gallery" time="0.0025" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="[Import-PowerShellDataFile] - MSFT.Network.Diag.psd1 is a valid PowerShell Data File" name="MSFT.Network.Diag-Manifest.Validation.[Import-PowerShellDataFile] - MSFT.Network.Diag.psd1 is a valid PowerShell Data File" time="0.1774" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="[Test-ModuleManifest] - MSFT.Network.Diag.psd1 should pass the basic test" name="MSFT.Network.Diag-Manifest.Validation.[Test-ModuleManifest] - MSFT.Network.Diag.psd1 should pass the basic test" time="0.0068" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Should specify at least 2 modules" name="MSFT.Network.Diag-Manifest.Validation.Should specify at least 2 modules" time="0.0227" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Should contain the Get-NetView Module" name="MSFT.Network.Diag-Manifest.Validation.Should contain the Get-NetView Module" time="0.0828" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="The Get-NetView module should be available in the PowerShell gallery" name="MSFT.Network.Diag-Manifest.Validation.The Get-NetView module should be available in the PowerShell gallery" time="0.0066" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Should contain the Validate-DCB Module" name="MSFT.Network.Diag-Manifest.Validation.Should contain the Validate-DCB Module" time="0.003" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="The Validate-DCB module should be available in the PowerShell gallery" name="MSFT.Network.Diag-Manifest.Validation.The Validate-DCB module should be available in the PowerShell gallery" time="0.0023" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
             </results>
