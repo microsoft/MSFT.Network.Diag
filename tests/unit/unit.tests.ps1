@@ -11,11 +11,11 @@ Describe "$($env:repoName)-Manifest" {
             $TestModule | Should Not BeNullOrEmpty
         }
 
-        It "Should specify at least 1 modules" {
-            ($TestModule).RequiredModules.Count | Should BeGreaterThan 0
+        It "Should specify at least 2 modules" {
+            ($TestModule).RequiredModules.Count | Should BeGreaterThan 1
         }
 
-        'Get-NetView' | ForEach-Object {
+        'Get-NetView', 'Validate-DCB' | ForEach-Object {
             It "Should contain the $_ Module" {
                 $_ -in ($TestModule).RequiredModules.Name | Should be $true
             }
