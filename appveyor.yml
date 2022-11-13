@@ -17,8 +17,8 @@ install:
   - ps: . .\tests\setup\install.ps1
 
 # Initiate tests
-test_script:
-  - ps: . .\tests\setup\initiate-tests.ps1
+#test_script:
+#  - ps: . .\tests\setup\initiate-tests.ps1
 
 # finalize build
 deploy_script:
