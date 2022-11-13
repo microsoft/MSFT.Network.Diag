@@ -12,7 +12,7 @@
 # RootModule = ''
 
 # Version number of this module.
-ModuleVersion = '0.0.0.12'
+ModuleVersion = '1.0.0.12'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -52,7 +52,7 @@ Description = 'Top-level manifest module containing network diagnostic and troub
 
 # Modules that must be imported into the global environment prior to importing this module
 RequiredModules = @(@{ModuleName = 'Get-NetView'; ModuleVersion = '2019.6.7.8'; }, 
-               @{ModuleName = 'Validate-DCB'; ModuleVersion = '20191008.2.2.71'; })
+               @{ModuleName = 'Validate-DCB'; ModuleVersion = '20210802.2.2.117'; })
 
 # Assemblies that must be loaded prior to importing this module
 # RequiredAssemblies = @()
