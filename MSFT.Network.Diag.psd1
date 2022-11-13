@@ -52,7 +52,8 @@ Description = 'Top-level manifest module containing network diagnostic and troub
 
 # Modules that must be imported into the global environment prior to importing this module
 RequiredModules = @(@{ModuleName = 'Get-NetView'; ModuleVersion = '2019.6.7.8'; }, 
-               @{ModuleName = 'Validate-DCB'; ModuleVersion = '20210802.2.2.117'; })
+               @{ModuleName = 'Validate-DCB'; ModuleVersion = '20210802.2.2.117'; },
+               @{ModuleName = 'DataCenterBridging'; ModuleVersion = '2021.8.18.41'; })
 
 # Assemblies that must be loaded prior to importing this module
 # RequiredAssemblies = @()
