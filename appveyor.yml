@@ -33,7 +33,7 @@ version: 0.0.0.{build}
 #CoreNetBuilder
 environment:
   NuGetApiKey:
-    secure: N4Mt/R/8j1Lk6GPkWqpkBl7ktciiBQfb3s4wzT0rghDQDeGJErjQshcdgazxzE/X
+    secure: LNb9o/k03RKeTsgiFQab+HXXnYCyUb5N+42HRShmCaEGw6+j/aa6CmW5gjkaXfTR
   GitHubKey:
     secure: 4VTkUGIAUqMtDSbrIrbn856kPmOLVYNSSy/NwsnQajL+7o+xpoqWZcTpYfEXco2/
 
